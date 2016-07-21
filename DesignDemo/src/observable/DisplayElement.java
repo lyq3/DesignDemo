@@ -8,7 +8,7 @@ package observable;
 public interface DisplayElement {
 	
 	/**
-	 * 天气面板显示方法
+	 * 天气面板显示方法 
 	 */
 	public void display();
 }
