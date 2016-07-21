@@ -13,10 +13,6 @@ public class Test {
 		CurrentConditionsDisplay cu=new CurrentConditionsDisplay(weatherData);
 		//主题更新
 		weatherData.setMeasurements(30, 50, 100);
-		//在创建一个观察者
-		CurrentConditionsDisplay abc=new CurrentConditionsDisplay(weatherData);
-		//测试
-		weatherData.setMeasurements(33, 55, 100);
 		
 	}
 }
