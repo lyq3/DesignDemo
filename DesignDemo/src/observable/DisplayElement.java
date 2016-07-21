@@ -1,14 +1,14 @@
 package observable;
 
 /**
- * 显示天气接口，所有面板必须实现此接口
+ * 鏄剧ず澶╂皵鎺ュ彛锛屾墍鏈夐潰鏉垮繀椤诲疄鐜版鎺ュ彛
  * @author Mr.luo
  *
  */
 public interface DisplayElement {
 	
 	/**
-	 * 天气面板显示方法
+	 * 澶╂皵闈㈡澘鏄剧ず鏂规硶
 	 */
 	public void display();
 }

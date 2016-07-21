@@ -4,17 +4,17 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class CurrentConditionsDisplay implements Observer,DisplayElement{
-	/**¿É¹Û²ìÕß¶ÔÏó(Ö÷Ìâ¶ÔÏó)*/
+	/**å¯è§‚å¯Ÿè€…å¯¹è±¡(ä¸»é¢˜å¯¹è±¡)*/
 	Observable observable;
-	/**ÎÂ¶È*/
+	/**æ¸©åº¦*/
 	private float temperature;
-	/**Êª¶È*/
+	/**æ¹¿åº¦*/
 	private float humidity;
 	
 	
 	/**
-	 * ¹¹Ôì·½·¨½«Ö÷Ìâ¶ÔÏó´«µİ¹ıÀ´£¬
-	 * ½«¹Û²ìÕß¼ÓÈëµ½¶©ÔÄÕßÖĞ
+	 * æ„é€ æ–¹æ³•å°†ä¸»é¢˜å¯¹è±¡ä¼ é€’è¿‡æ¥ï¼Œ
+	 * å°†è§‚å¯Ÿè€…åŠ å…¥åˆ°è®¢é˜…è€…ä¸­
 	 * @param observable
 	 */
 	public CurrentConditionsDisplay(Observable observable) {
@@ -24,7 +24,7 @@ public class CurrentConditionsDisplay implements Observer,DisplayElement{
 	}
 
 	/**
-	 * ½«Ö÷Ìâ¶ÔÏóºÍÊı¾İ¶ÔÏó×÷Îª²ÎÊı
+	 * å°†ä¸»é¢˜å¯¹è±¡å’Œæ•°æ®å¯¹è±¡ä½œä¸ºå‚æ•°
 	 */
 	@Override
 	public void update(Observable o, Object arg) {
@@ -38,6 +38,6 @@ public class CurrentConditionsDisplay implements Observer,DisplayElement{
 
 	@Override
 	public void display() {
-		System.out.println("Êª¶È:"+humidity+"\n"+"ÎÂ¶È:"+temperature);
+		System.out.println("æ¹¿åº¦:"+humidity+"\n"+"æ¸©åº¦:"+temperature);
 	}
 }

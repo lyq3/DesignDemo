@@ -1,17 +1,17 @@
 package observable;
 
 /**
- * ²âÊÔ³ÌĞò
+ * æµ‹è¯•ç¨‹åº
  * @author Mr.luo
  *
  */
 public class Test {
 	public static void main(String[] args) {
-		//´´½¨¿É¹Û²ìÕß
+		//åˆ›å»ºå¯è§‚å¯Ÿè€…
 		WeatherData weatherData=new WeatherData();
-		//´´½¨¹Û²ìÕß
+		//åˆ›å»ºè§‚å¯Ÿè€…
 		CurrentConditionsDisplay cu=new CurrentConditionsDisplay(weatherData);
-		//Ö÷Ìâ¸üĞÂ
+		//ä¸»é¢˜æ›´æ–°
 		weatherData.setMeasurements(30, 50, 100);
 	}
 }

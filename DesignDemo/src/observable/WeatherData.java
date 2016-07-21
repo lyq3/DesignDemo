@@ -3,16 +3,16 @@ package observable;
 import java.util.Observable;
 
 /**
- * ¹Û²ìÕßÄ£Ê½£¬¿É¹Û²ìÕßÀà£¨Ö÷ÌâÀà£©
+ * è§‚å¯Ÿè€…æ¨¡å¼ï¼Œå¯è§‚å¯Ÿè€…ç±»ï¼ˆä¸»é¢˜ç±»ï¼‰
  * @author Mr.luo
  *
  */
 public class WeatherData extends Observable{
-	/**ÎÂ¶È*/
+	/**æ¸©åº¦*/
 	private float temperature;
-	/**Êª¶È*/
+	/**æ¹¿åº¦*/
 	private float humidity;
-	/**Ñ¹Ç¿*/
+	/**å‹å¼º*/
 	private float pressure;
 	
 	public WeatherData() {
@@ -24,7 +24,7 @@ public class WeatherData extends Observable{
 	}
 	
 	/**
-	 * ÉèÖÃÊı¾İ
+	 * è®¾ç½®æ•°æ®
 	 * @param temperature
 	 * @param humidity
 	 * @param pressure
