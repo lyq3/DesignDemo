@@ -1,4 +1,4 @@
-package decorator;
+package decorator.demo1;
 
 /**
  * 测试类

@@ -1,4 +1,4 @@
-package decorator;
+package decorator.demo1;
 
 /**
  * 调料类（装饰者类）

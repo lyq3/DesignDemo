@@ -1,4 +1,4 @@
-package decorator;
+package decorator.demo1;
 
 /**
  * 具体的饮料实现类

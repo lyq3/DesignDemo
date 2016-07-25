@@ -1,4 +1,4 @@
-package decorator;
+package decorator.demo1;
 
 /**
  * 装饰者的实现类（调料）
