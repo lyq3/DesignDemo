@@ -14,6 +14,11 @@ public abstract class PizzaStore {
 	 */
 	protected abstract Pizza createPizza(String type);
 	
+	/**
+	 * 订购披萨
+	 * @param type
+	 * @return
+	 */
 	public Pizza orderPizza(String type){
 		Pizza pizza;
 		pizza=createPizza(type);
