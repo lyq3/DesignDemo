@@ -1,11 +1,21 @@
 package factory.demo1;
 
+import java.util.ArrayList;
+
 /**
  * 披萨类
  * @author Mr.luo
  *
  */
 public class Pizza {
+	//名字
+	String name;
+	//面团类型
+	String dough;
+	//酱料类型
+	String sauce;
+	//佐料
+	ArrayList topings=new ArrayList<>();
 	/**
 	 * 准备
 	 */

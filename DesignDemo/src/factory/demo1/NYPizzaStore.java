@@ -8,7 +8,7 @@ public class NYPizzaStore extends PizzaStore{
 	@Override
 	protected Pizza createPizza(String type) {
 		if("cheese".equals(type)){
-			return new Pizza();//返回一个纽约风格的起司披萨new NYStyleCheesePizza()
+			return new NYStyleCheesePizza();
 		}
 		if("clam".equals(type)){
 			return new Pizza();//返回一个.......
