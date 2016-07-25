@@ -1,4 +1,4 @@
-package demo1;
+package decorator;
 
 /**
  * 装饰者模式
